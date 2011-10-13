@@ -1,0 +1,17 @@
+h1. Delete All Contacts
+
+Like it says on the tin, run this app and it'll delete all the contacts on your device.
+
+*SERIOUSLY IT'LL DELETE ALL OF YOUR CONTACTS*
+
+h2. Why?
+
+Well I had contacts syncing with MobileMe. Then iCloud came along and I have a different AppleID that I use for everything (everything, except MobileMe). So I stop syncing my contacts with MobileMe and find that now I have two contacts, one on the device and one in iCloud. I only wanted ones on iCloud and going through 273 contacts, hitting delete on each one would have taken the best part of a couple of hours; This app took much less time. 
+
+So if you're in the same position as me...
+
+- First thing is to make sure your *contacts are actually on iCloud!*
+- Then, *Turn off iCloud syncing* for contacts, I imagine this would destroy that data too and that would be bad!
+- Next run this, delete the contacts on device.
+- Finally start iCloud syncing and watch the iCloud contacts come in.
+
