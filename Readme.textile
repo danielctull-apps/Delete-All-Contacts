@@ -10,8 +10,8 @@ Well I had contacts syncing with MobileMe. Then iCloud came along and I have a d
 
 So if you're in the same position as me...
 
-- First thing is to make sure your *contacts are actually on iCloud!*
-- Then, *Turn off iCloud syncing* for contacts, I imagine this would destroy that data too and that would be bad!
-- Next run this, delete the contacts on device.
-- Finally start iCloud syncing and watch the iCloud contacts come in.
+# Make sure your *contacts are actually on iCloud*
+# *Turn off iCloud syncing* for contacts - I imagine this would destroy that data too and that would be bad!
+# Build and run this app - it will *delete all of the contacts* on device
+# Start iCloud syncing and watch the iCloud contacts come in
 
