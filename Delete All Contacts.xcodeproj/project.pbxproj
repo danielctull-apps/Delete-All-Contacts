@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2408297A1447A18E000491DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240829791447A18E000491DD /* UIKit.framework */; };
+		2408297C1447A18E000491DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2408297B1447A18E000491DD /* Foundation.framework */; };
+		2408297E1447A18E000491DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2408297D1447A18E000491DD /* CoreGraphics.framework */; };
+		240829841447A18E000491DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 240829821447A18E000491DD /* InfoPlist.strings */; };
+		240829861447A18E000491DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240829851447A18E000491DD /* main.m */; };
+		2408298A1447A18E000491DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240829891447A18E000491DD /* AppDelegate.m */; };
+		2408298D1447A18E000491DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408298C1447A18E000491DD /* ViewController.m */; };
+		240829901447A18E000491DD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2408298E1447A18E000491DD /* ViewController_iPhone.xib */; };
+		240829931447A18E000491DD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240829911447A18E000491DD /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		240829751447A18E000491DD /* Delete All Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delete All Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240829791447A18E000491DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2408297B1447A18E000491DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2408297D1447A18E000491DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		240829811447A18E000491DD /* Delete All Contacts-Info.plist */ = {isa = PBXFileReference; path = "Delete All Contacts-Info.plist"; sourceTree = "<group>"; };
+		240829831447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		240829851447A18E000491DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240829871447A18E000491DD /* Delete All Contacts-Prefix.pch */ = {isa = PBXFileReference; path = "Delete All Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		240829881447A18E000491DD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		240829891447A18E000491DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2408298B1447A18E000491DD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2408298C1447A18E000491DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2408298F1447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		240829921447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240829721447A18E000491DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408297A1447A18E000491DD /* UIKit.framework in Frameworks */,
+				2408297C1447A18E000491DD /* Foundation.framework in Frameworks */,
+				2408297E1447A18E000491DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2408296A1447A18E000491DD = {
+			isa = PBXGroup;
+			children = (
+				2408297F1447A18E000491DD /* Delete All Contacts */,
+				240829781447A18E000491DD /* Frameworks */,
+				240829761447A18E000491DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		240829761447A18E000491DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240829751447A18E000491DD /* Delete All Contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240829781447A18E000491DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240829791447A18E000491DD /* UIKit.framework */,
+				2408297B1447A18E000491DD /* Foundation.framework */,
+				2408297D1447A18E000491DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2408297F1447A18E000491DD /* Delete All Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				240829881447A18E000491DD /* AppDelegate.h */,
+				240829891447A18E000491DD /* AppDelegate.m */,
+				2408298B1447A18E000491DD /* ViewController.h */,
+				2408298C1447A18E000491DD /* ViewController.m */,
+				2408298E1447A18E000491DD /* ViewController_iPhone.xib */,
+				240829911447A18E000491DD /* ViewController_iPad.xib */,
+				240829801447A18E000491DD /* Supporting Files */,
+			);
+			path = "Delete All Contacts";
+			sourceTree = "<group>";
+		};
+		240829801447A18E000491DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				240829811447A18E000491DD /* Delete All Contacts-Info.plist */,
+				240829821447A18E000491DD /* InfoPlist.strings */,
+				240829851447A18E000491DD /* main.m */,
+				240829871447A18E000491DD /* Delete All Contacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		240829741447A18E000491DD /* Delete All Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240829961447A18E000491DD /* Build configuration list for PBXNativeTarget "Delete All Contacts" */;
+			buildPhases = (
+				240829711447A18E000491DD /* Sources */,
+				240829721447A18E000491DD /* Frameworks */,
+				240829731447A18E000491DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delete All Contacts";
+			productName = "Delete All Contacts";
+			productReference = 240829751447A18E000491DD /* Delete All Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2408296C1447A18E000491DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 2408296F1447A18E000491DD /* Build configuration list for PBXProject "Delete All Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2408296A1447A18E000491DD;
+			productRefGroup = 240829761447A18E000491DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				240829741447A18E000491DD /* Delete All Contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240829731447A18E000491DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240829841447A18E000491DD /* InfoPlist.strings in Resources */,
+				240829901447A18E000491DD /* ViewController_iPhone.xib in Resources */,
+				240829931447A18E000491DD /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240829711447A18E000491DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240829861447A18E000491DD /* main.m in Sources */,
+				2408298A1447A18E000491DD /* AppDelegate.m in Sources */,
+				2408298D1447A18E000491DD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		240829821447A18E000491DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240829831447A18E000491DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2408298E1447A18E000491DD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2408298F1447A18E000491DD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		240829911447A18E000491DD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240829921447A18E000491DD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		240829941447A18E000491DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		240829951447A18E000491DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		240829971447A18E000491DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delete All Contacts/Delete All Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Delete All Contacts/Delete All Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		240829981447A18E000491DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delete All Contacts/Delete All Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Delete All Contacts/Delete All Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2408296F1447A18E000491DD /* Build configuration list for PBXProject "Delete All Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240829941447A18E000491DD /* Debug */,
+				240829951447A18E000491DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240829961447A18E000491DD /* Build configuration list for PBXNativeTarget "Delete All Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240829971447A18E000491DD /* Debug */,
+				240829981447A18E000491DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2408296C1447A18E000491DD /* Project object */;
+}
