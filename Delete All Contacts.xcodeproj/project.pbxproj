@@ -14,8 +14,8 @@
 		240829861447A18E000491DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240829851447A18E000491DD /* main.m */; };
 		2408298A1447A18E000491DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240829891447A18E000491DD /* AppDelegate.m */; };
 		2408298D1447A18E000491DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408298C1447A18E000491DD /* ViewController.m */; };
-		240829901447A18E000491DD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2408298E1447A18E000491DD /* ViewController_iPhone.xib */; };
-		240829931447A18E000491DD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240829911447A18E000491DD /* ViewController_iPad.xib */; };
+		240829901447A18E000491DD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2408298E1447A18E000491DD /* ViewController.xib */; };
+		2408299A1447A207000491DD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240829991447A207000491DD /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +23,16 @@
 		240829791447A18E000491DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2408297B1447A18E000491DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2408297D1447A18E000491DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		240829811447A18E000491DD /* Delete All Contacts-Info.plist */ = {isa = PBXFileReference; path = "Delete All Contacts-Info.plist"; sourceTree = "<group>"; };
+		240829811447A18E000491DD /* Delete All Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Delete All Contacts-Info.plist"; sourceTree = "<group>"; };
 		240829831447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		240829851447A18E000491DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		240829871447A18E000491DD /* Delete All Contacts-Prefix.pch */ = {isa = PBXFileReference; path = "Delete All Contacts-Prefix.pch"; sourceTree = "<group>"; };
-		240829881447A18E000491DD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		240829871447A18E000491DD /* Delete All Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Delete All Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		240829881447A18E000491DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		240829891447A18E000491DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2408298B1447A18E000491DD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2408298B1447A18E000491DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2408298C1447A18E000491DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2408298F1447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		240829921447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2408298F1447A18E000491DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		240829991447A207000491DD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2408299A1447A207000491DD /* AddressBook.framework in Frameworks */,
 				2408297A1447A18E000491DD /* UIKit.framework in Frameworks */,
 				2408297C1447A18E000491DD /* Foundation.framework in Frameworks */,
 				2408297E1447A18E000491DD /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +70,7 @@
 		240829781447A18E000491DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				240829991447A207000491DD /* AddressBook.framework */,
 				240829791447A18E000491DD /* UIKit.framework */,
 				2408297B1447A18E000491DD /* Foundation.framework */,
 				2408297D1447A18E000491DD /* CoreGraphics.framework */,
@@ -83,8 +85,7 @@
 				240829891447A18E000491DD /* AppDelegate.m */,
 				2408298B1447A18E000491DD /* ViewController.h */,
 				2408298C1447A18E000491DD /* ViewController.m */,
-				2408298E1447A18E000491DD /* ViewController_iPhone.xib */,
-				240829911447A18E000491DD /* ViewController_iPad.xib */,
+				2408298E1447A18E000491DD /* ViewController.xib */,
 				240829801447A18E000491DD /* Supporting Files */,
 			);
 			path = "Delete All Contacts";
@@ -153,8 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240829841447A18E000491DD /* InfoPlist.strings in Resources */,
-				240829901447A18E000491DD /* ViewController_iPhone.xib in Resources */,
-				240829931447A18E000491DD /* ViewController_iPad.xib in Resources */,
+				240829901447A18E000491DD /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,20 +182,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2408298E1447A18E000491DD /* ViewController_iPhone.xib */ = {
+		2408298E1447A18E000491DD /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2408298F1447A18E000491DD /* en */,
 			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		240829911447A18E000491DD /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				240829921447A18E000491DD /* en */,
-			);
-			name = ViewController_iPad.xib;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

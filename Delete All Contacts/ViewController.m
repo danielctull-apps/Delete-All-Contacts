@@ -7,58 +7,32 @@
 //
 
 #import "ViewController.h"
+#import <AddressBook/AddressBook.h>
 
 @implementation ViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+@synthesize textView;
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-	} else {
-	    return YES;
+	
+	ABAddressBookRef ref = ABAddressBookCreate();
+	NSArray *people = (__bridge_transfer NSArray *)ABAddressBookCopyArrayOfAllPeople(ref);
+	
+	for (id record in people) {
+		
+		ABRecordRef recordRef = (__bridge_retained ABRecordRef)record;
+		
+		NSString *firstName = (__bridge_transfer NSString *)ABRecordCopyValue(recordRef, kABPersonFirstNameProperty);
+		NSString *lastName = (__bridge_transfer NSString *)ABRecordCopyValue(recordRef, kABPersonLastNameProperty);
+		
+		self.textView.text = [NSString stringWithFormat:@"%@\nDeleting %@ %@", self.textView.text, firstName, lastName];
+		
+		ABAddressBookRemoveRecord(ref, recordRef, NULL);
 	}
+	
+	ABAddressBookSave(ref, NULL);
+	
 }
 
 @end
